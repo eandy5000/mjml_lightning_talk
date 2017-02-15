@@ -1,0 +1,67 @@
+<mjml>
+  <mj-body>
+    <mj-container>
+
+      <mj-section
+        background-color="#fff"
+      >
+        <mj-column>
+          <mj-text
+            align="center"
+            font-size="40"
+            padding="30 5 30 5"
+            line-height="1.2"
+          >
+            Hello React Minneapolis
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+
+        <mj-section
+          background-color="#888"
+          border-bottom="1px solid black"
+        >
+
+          <mj-column>
+            <mj-image src="http://www.fillmurray.com/600/400" />
+          </mj-column>
+          <mj-column>
+            <mj-text
+              color="white"
+              align="center"
+              font-size="20"
+              padding-top="50"
+            >
+              MJML:
+  Using React to make responsive HTML emails
+            </mj-text>
+          </mj-column>
+      </mj-section>
+
+      <mj-section
+        background-color="#888"
+      >
+        <mj-group>
+          <mj-column>
+            <mj-text
+              color="white"
+              align="center"
+            >
+              What is MJML?
+            </mj-text>
+          </mj-column>
+          <mj-column>
+            <mj-text
+              color="white"
+              align="center"
+            >
+              Making HTML emails easier
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+    </mj-container>
+  </mj-body>
+</mjml>
