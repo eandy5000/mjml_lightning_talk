@@ -1,0 +1,34 @@
+<mjml>
+  //the MJML head tag
+  <mj-head>
+    <mj-attributes>
+      <mj-title>Using the MJML head</mj-title>
+      <mj-all background-color="#fff" />
+      <mj-text
+        font-size="18"
+        align="center"
+      />
+      <mj-class
+        name="big-red"
+        color="red"
+        font-size="24"
+      />
+    </mj-attributes>
+  </mj-head>
+  <mj-body>
+    <mj-container>
+      <mj-section>
+        <mj-column>
+          <mj-text mj-class="">
+            Hi there
+          </mj-text>
+        </mj-column>
+        <mj-column>
+          <mj-text>
+            React Minneapolis
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
